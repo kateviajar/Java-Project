@@ -5,18 +5,18 @@ The player places a bet, then rolls the dice. A score that the player obtained i
 Then, the banker rolls the dice, and get his score. The last step is to compare their scores to see who wins the game.
 
 ### Game Rules
-- Rule 1
+- Rule 1: 
   If the faces of 4 dice are totally different, or three out of four dice have the same face, the player/ banker needs to roll again. 
   For example, {2,5,3,1} or {3,3,5,3}. 
   
-- Rule 2
+- Rule 2: 
   If two dice have the same face, the others have different faces. The score is to count the sum of those two dice that have different faces. 
   For example, {1,3,5,1} the score is 3+5=8. 
   If two dice have the same face, the others have the same face. The score is to count the sum of the pair of dice with higher number. 
   For example, {2,2,5,5,} the score is 5+5=10. 
   If the player wins the game, the odds are 1/1. (You bet 10 dollars, then you will win 10 dollars.). 
   
-- Rule 3
+- Rule 3: 
   If the faces of 4 dice are the same face, the player wins the game directly. The odds are 2/1. 
   (You bet 10 dollars, then you will win 20 dollars.) For example, {2,2,2,2}. 
   
